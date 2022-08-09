@@ -5,6 +5,91 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+
+    <div id="principal"><!--Inicio contêiner-->
+
+        <header><!--Inicio header-->
+
+            <div id="logo"><!--Inicio Logo-->
+                <h1><a href="">Museu Nacional</a></h1>
+            </div><!--/Fim Logo-->
+            <nav><!--Inicio navegação-->
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Exposições</a></li>
+                    <li><a href="">Pesquisa</a></li>
+                    <li><a href="">Acervo</a></li>
+                    <li><a href="">Videos</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav><!--/Fim navegação-->
+        </header><!--/Fim Header-->
+
+        <div id="conteudo"><!--Inicio conteúdo-->
+            <div id="conteudo-principal"><!--Inicio conteúdo-principal-->
+                <section id="capa">
+                    <img src="medias/museu.png">
+                </section>
+
+                <section id="postagens">
+                    <article id="video">
+
+                        <h3>Video: É o Marcos Leonardo</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/_ZsEVq6bM8w"
+                            title="Lucky - ML9 (Funk do Marcos Leonardo)" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Venha conhecer</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.2646676705967!2d-46.341043585014894!3d-23.951079384490786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce0368d089229b%3A0xae243f28a776ae4d!2sEst%C3%A1dio%20Urbano%20Caldeira!5e0!3m2!1spt-BR!2sbr!4v1660012984298!5m2!1spt-BR!2sbr"
+                            width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+                </section>
+            </div><!--/Fim conteúdo-principal-->
+            <aside><!--Inicio aside-->
+                <section> <!--Seção depoimento-->
+                    <img src="medias/depoimento.png">
+                </section> <!--/Fim seção depoimento-->
+                <section id="visita"> <!--Seção visita-->
+                    <h4>Faça sua visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+                        </fieldset>
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section><!--/Fim seção depoimento-->
+                <section id="galeria">
+                    <h4>Galeria de fotos</h4>
+                    <a href="">
+                        <img src="medias/imagem1.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="medias/imagem2.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="medias/imagem3.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="medias/imagem4.jpg" height="93" width="93">
+                    </a>
+                </section>
+            </aside><!--/Fim aside-->
+        </div><!--/Fim conteúdo-->
+
+
+
+    </div><!--/Fim conteiner-->
     
 </body>
 </html>
